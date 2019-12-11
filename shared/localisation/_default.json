@@ -106,7 +106,7 @@
   },
   {
     "id": "ADDoffer33",
-    "message": "Get subscribed for the Swap.Online news",
+    "message": "Subscribe for the latest updates",
     "files": [
       "shared/components/Header/User/SignUpButton/SignUpButton.js"
     ]
@@ -509,7 +509,7 @@
   },
   {
     "id": "SwapProgress123",
-    "message": "ETH contract created and charged. Requesting withdrawal from ETH Contract. It usually takes less than 10 mins",
+    "message": "ETH contract was created and charged. Withdrawing ETH.",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/BtcToEth.js"
     ]
@@ -523,7 +523,7 @@
   },
   {
     "id": "SwapProgress135",
-    "message": "Thank you for using Swap.Online! ",
+    "message": "Thank you for using AtomicSwapWallet.io! ",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/BtcToEth.js"
     ]
@@ -562,11 +562,11 @@
   },
   {
     "id": "SwapProgress74",
-    "message": "Thank you for using Swap.Online! "
+    "message": "Thank you for using AtomicSwapWallet.io! "
   },
   {
     "id": "SwapProgress80",
-    "message": "Thank you for using Swap.Online! "
+    "message": "Thank you for using AtomicSwapWallet.io! "
   },
   {
     "id": "SwapProgress93",
@@ -598,11 +598,11 @@
   },
   {
     "id": "CurrencyTitleSeo1",
-    "message": "{fullName} ({tickerName}) Price, Description & Exchange Rates. Store & Exchange {fullName} ({tickerName}) Anonymously on Swap.Online."
+    "message": "{fullName} ({tickerName}) Price, Description & Exchange Rates. Store & Exchange {fullName} ({tickerName}) Anonymously on AtomicSwapWallet.io."
   },
   {
     "id": "CurrencyMetaDescrTag1",
-    "message": "Find out actual price of {fullName}, its ticker name is ({tickerName}). Swap.Online is the best way to safely store your cryptocurrecy."
+    "message": "Find out actual price of {fullName}, its ticker name is ({tickerName}). AtomicSwapWallet.io is the best way to safely store your cryptocurrecy."
   },
   {
     "id": "CurrencyH1Seo1",
@@ -917,7 +917,7 @@
   },
   {
     "id": "BtcToEthToken260",
-    "message": "4. ETH contract created and charged. Requesting withdrawal from ETH Contract. Please wait. It usually takes less than 10 mins"
+    "message": "ETH contract was created and charged. Withdrawing ETH. Please wait "
   },
   {
     "id": "BtcToEthToken267",
@@ -929,7 +929,7 @@
   },
   {
     "id": "BtcToEthToken293",
-    "message": "Thank you for using Swap.Online! "
+    "message": "Thank you for using AtomicSwapWallet.io! "
   },
   {
     "id": "BtcToEthToken303",
@@ -946,6 +946,14 @@
   {
     "id": "BtcToEthToken87",
     "message": "1. Waiting participant confirm this swap"
+  },
+  {
+    "id": "SwapController54",
+    "message": "Another participant is online"
+  },
+  {
+    "id": "SwapController60",
+    "message": "Another participant is offline"
   },
   {
     "id": "EosToBtc107",
@@ -1051,7 +1059,7 @@
   },
   {
     "id": "EthTokenBtc335",
-    "message": "6. The funds from ETH contract was successfully transferred to BTC owner. BTC owner left a secret key. Requesting withdrawal from BTC script. Please wait."
+    "message": "ETH was successfully transferred. Withdrawing BTC. Please wait"
   },
   {
     "id": "EthTokenBtc342",
@@ -1059,7 +1067,7 @@
   },
   {
     "id": "EthTokenBtc365",
-    "message": "Thank you for using Swap.Online! "
+    "message": "Thank you for using AtomicSwapWallet.io! "
   },
   {
     "id": "EthTokenBtc375",
@@ -1240,7 +1248,7 @@
   },
   {
     "id": "EthTokenToUsdt380",
-    "message": "Thank you for using Swap.Online! ",
+    "message": "Thank you for using AtomicSwapWallet.io! ",
     "files": [
       "shared/pages/Swap/EthTokenToUsdt.js"
     ]
@@ -1443,7 +1451,7 @@
   },
   {
     "id": "EthToLtc389",
-    "message": "Thank you for using Swap.Online! ",
+    "message": "Thank you for using AtomicSwapWallet.io! ",
     "files": [
       "shared/pages/Swap/EthToLtc.js"
     ]
@@ -1611,7 +1619,7 @@
   },
   {
     "id": "LtcTOeth283",
-    "message": "5. ETH contract created and charged. Requesting withdrawal from ETH Contract. Please wait. It usually takes less than 10 mins",
+    "message": "ETH contract was created and charged. Withdrawing ETH. Please wait.",
     "files": [
       "shared/pages/Swap/LtcToEth.js"
     ]
@@ -1632,7 +1640,7 @@
   },
   {
     "id": "LtcTOeth315",
-    "message": "Thank you for using Swap.Online! ",
+    "message": "Thank you for using AtomicSwapWallet.io! ",
     "files": [
       "shared/pages/Swap/LtcToEth.js"
     ]
@@ -1793,7 +1801,7 @@
   },
   {
     "id": "UsdrToEthToken297",
-    "message": "Thank you for using Swap.Online! ",
+    "message": "Thank you for using AtomicSwapWallet.io! ",
     "files": [
       "shared/pages/Swap/UsdtToEthToken.js"
     ]
@@ -1886,7 +1894,8 @@
     "id": "RowWallet189",
     "message": "Unconfirmed balance",
     "files": [
-      "shared/pages/OldWallet/Row/Row.js"
+      "shared/pages/OldWallet/Row/Row.js",
+      "shared/pages/Wallet/Row/Row.js"
     ]
   },
   {
@@ -2007,7 +2016,7 @@
   },
   {
     "id": "BtcToEthTokenAddress1",
-    "message": "Confirm destination address (by default - swap.online wallet)"
+    "message": "Confirm destination address (by default - AtomicSwapWallet.io wallet)"
   },
   {
     "id": "BtcToEthTokenAddress2",
@@ -2141,7 +2150,7 @@
   },
   {
     "id": "Thank",
-    "message": "Thank you for using Swap.Online! ",
+    "message": "Thank you for using AtomicSwapWallet.io! ",
     "files": [
       "shared/pages/Swap/BtcToLtc.js",
       "shared/pages/Swap/LtcToBtc.js"
@@ -2192,6 +2201,13 @@
     "files": [
       "shared/pages/Swap/BtcToLtc.js",
       "shared/pages/Swap/LtcToBtc.js"
+    ]
+  },
+  {
+    "id": "HowItWorks10",
+    "message": "How it works",
+    "files": [
+      "shared/pages/PartialClosure/HowItWorks/HowItWorks.js"
     ]
   },
   {
@@ -2316,7 +2332,7 @@
   },
   {
     "id": "partial221",
-    "message": "Max amount for exchange:"
+    "message": "Max amount for exchange: "
   },
   {
     "id": "Company",
@@ -2576,7 +2592,7 @@
   },
   {
     "id": "Orders151",
-    "message": "my Orders",
+    "message": "My orders",
     "files": [
       "shared/pages/Home/Orders/Orders.js"
     ]
@@ -2757,20 +2773,6 @@
     ]
   },
   {
-    "id": "Row288",
-    "message": "KeyChain is activated",
-    "files": [
-      "shared/pages/OldWallet/KeychainStatus/KeychainStatus.js"
-    ]
-  },
-  {
-    "id": "Row289",
-    "message": "KeyChain is not activated",
-    "files": [
-      "shared/pages/OldWallet/KeychainStatus/KeychainStatus.js"
-    ]
-  },
-  {
     "id": "Wallet137",
     "message": "Deposit funds to addresses below",
     "files": [
@@ -2897,6 +2899,20 @@
     ]
   },
   {
+    "id": "Row288",
+    "message": "KeyChain is activated",
+    "files": [
+      "shared/pages/OldWallet/KeychainStatus/KeychainStatus.js"
+    ]
+  },
+  {
+    "id": "Row289",
+    "message": "KeyChain is not activated",
+    "files": [
+      "shared/pages/OldWallet/KeychainStatus/KeychainStatus.js"
+    ]
+  },
+  {
     "id": "Eos75",
     "message": "Private key for active and owner permissions",
     "files": [
@@ -2958,7 +2974,7 @@
   },
   {
     "id": "partial224",
-    "message": "Leave empty for use Swap.Online wallet"
+    "message": "Leave it empty to use your default AtomicSwapWallet.io wallet"
   },
   {
     "id": "partial243",
@@ -3193,7 +3209,7 @@
   },
   {
     "id": "PartialUseSwapOnlineWallet",
-    "message": "Use Swap.Online wallet"
+    "message": "Use AtomicSwapWallet.io wallet"
   },
   {
     "id": "UseAnotherWallet",
@@ -3232,7 +3248,7 @@
   },
   {
     "id": "partial462",
-    "message": "The amount you have in your swap.online wallet or external wallet that you want to exchange",
+    "message": "The amount you have in your AtomicSwapWallet.io wallet or external wallet that you want to exchange",
     "files": [
       "shared/components/modals/OfferModal/AddOffer/AddOffer.js"
     ]
@@ -3298,7 +3314,7 @@
   },
   {
     "id": "PartialFeeValueWarn",
-    "message": "Warning: you will have to pay an additional miner fee up to {estimatedFeeValue} {haveCurrency}"
+    "message": "The maximum amount you can sell is {maximumAmount}. Since will have to pay an additional miner fee up to {estimatedFeeValue} {haveCurrency}"
   },
   {
     "id": "PartialFeeValueWarn1",
@@ -3356,21 +3372,21 @@
   },
   {
     "id": "Row206",
-    "message": "BUY",
+    "message": "Buy",
     "files": [
       "shared/pages/Home/Orders/Row/Row.js"
     ]
   },
   {
     "id": "Row2061",
-    "message": "SELL",
+    "message": "Sell",
     "files": [
       "shared/pages/Home/Orders/Row/Row.js"
     ]
   },
   {
     "id": "Row210",
-    "message": "FOR",
+    "message": "for",
     "files": [
       "shared/pages/Home/Orders/Row/Row.js"
     ]
@@ -3398,7 +3414,7 @@
   },
   {
     "id": "PreventMultiTabs12",
-    "message": "Swap.Online supports only one active tab.\n    Please reload this page to continue  using this tab or close it",
+    "message": "AtomicSwapWallet.io supports only one active tab.\n    Please reload this page to continue  using this tab or close it",
     "files": [
       "shared/components/PreventMultiTabs/PreventMultiTabs.js"
     ]
@@ -3470,7 +3486,7 @@
   },
   {
     "id": "CurrencyWallet141",
-    "message": "Swap.Online - {fullName}({currency}) Web Wallet with Atomic Swap."
+    "message": "AtomicSwapWallet.io - {fullName}({currency}) Web Wallet Featuring Atomic Swaps."
   },
   {
     "id": "orders189",
@@ -3598,7 +3614,7 @@
   },
   {
     "id": "PartialPriceSearch502",
-    "message": "Price: 1 {getCurrency} = {haveCurrency}"
+    "message": "1 {getCurrency} = {haveCurrency}"
   },
   {
     "id": "PartialClosureTitleTag",
@@ -3610,7 +3626,22 @@
   },
   {
     "id": "PartialClosureMetaDescrTag",
-    "message": "Best exchange rate for {full_name1} ({ticker_name1}) to {full_name2} ({ticker_name2}). Swap.Online wallet provides instant exchange using Atomic Swap Protocol."
+    "message": "Best exchange rate for {full_name1} ({ticker_name1}) to {full_name2} ({ticker_name2}). AtomicSwapWallet.io wallet provides a truly peer-to-peer exchanging experience with the Atomic Swap Protocol."
+  },
+  {
+    "id": "Continue",
+    "message": "Continue",
+    "files": [
+      "shared/pages/Swap/BtcToLtc.js",
+      "shared/pages/Swap/LtcToBtc.js"
+    ]
+  },
+  {
+    "id": "Sign",
+    "message": "Sign",
+    "files": [
+      "shared/pages/Swap/LtcToBtc.js"
+    ]
   },
   {
     "id": "orders104",
@@ -3684,7 +3715,7 @@
   },
   {
     "id": "CurrencyWallet148",
-    "message": "Swap.Online - ${fullName} (${currency}) Web Wallet with Atomic Swap."
+    "message": "AtomicSwapWallet.io - ${fullName} (${currency}) Web Wallet Featuring Atomic Swaps."
   },
   {
     "id": "CurrencyWallet154",
@@ -3702,7 +3733,7 @@
   },
   {
     "id": "Orders127",
-    "message": "Best exchange rate for {buyCurrencyFullName} ({buyCurrency}) to {sellCurrencyFullName} ({sellCurrency}). Swap.Online wallet provides instant exchange using Atomic Swap Protocol.",
+    "message": "Best exchange rate for {buyCurrencyFullName} ({buyCurrency}) to {sellCurrencyFullName} ({sellCurrency}). AtomicSwapWallet.io wallet provides a truly peer-to-peer exchanging experience with the Atomic Swap Protocol.",
     "files": [
       "shared/pages/Home/Orders/Orders.js"
     ]
@@ -3713,28 +3744,28 @@
   },
   {
     "id": "Wallet140",
-    "message": "Swap.Online - Cryptocurrency Wallet with Atomic Swap Exchange",
+    "message": "AtomicSwapWallet.io - Decentralized Cryptocurrency Wallet Featuring Atomic Swaps",
     "files": [
       "shared/pages/OldWallet/Wallet.js"
     ]
   },
   {
     "id": "Wallet146",
-    "message": "Our online wallet with Atomic swap algorithms will help you store and exchange cryptocurrency instantly and more secure without third-parties. Decentralized exchange.",
+    "message": "Atomic Swap Wallet is a completely decentralized wallet supporting p2p swaps via Atomic Swaps. It helps you send, receive, store, and exchange your coins and tokens without any third-parties involved.",
     "files": [
       "shared/pages/OldWallet/Wallet.js"
     ]
   },
   {
     "id": "Wallet156",
-    "message": "Welcome to Swap.Online, a decentralized cross-chain wallet based on Atomic Swap technology.{br}Here you can safely store and promptly exchange Bitcoin, Ethereum, EOS, USD, Tether, BCH, and numerous ERC-20 tokens.{br}{br}Swap.Online doesn’t store your keys or tokens. Our wallet operates directly within your browser, so no additional installations or downloads are required.{br}The Swap.Online service is fully decentralized.  All operations with tokens are executed via the IPFS network.{br}{br}Our team was the first to finalize Atomic Swaps with USDT and EOS in September 2018 and Litecoin blockchain was added in October 2018.{br}Our wallet addresses real multi-chain integration with a decentralized order book - no third party involved in the exchange, no proxy-token and no token wrapping.{br}We can integrate any ERC-20 token of a project for free!  We just ask for a mutually beneficial PR announcement!{br}{br}In addition, we developed Swap.Button, a b2b-solution to exchange all kinds of tokens for Bitcoin and Ethereum.{br}Install Swap.Button html widget on your site and collect crypto investments for your project.{br}{br}Start using https://swap.online/ today and enjoy the power of true decentralization.",
+    "message": "Atomicswapwallet.io is a non-custodial (decentralized) browser-based cryptocurrency wallet supporting p2p BTC ⇋ ETH and BTC ⇋ ERC20 Token swaps via Atomic Swaps. Atomicswapwallet.io does not store your data, keys or coins. It operates directly on your browser with no software or plugin installations and downloads required. All swap operations are executed via the IPFS network, allowing us to provide you with a truly decentralized and peer-to-peer coin and ERC20 token swapping experience. {br}{br} Currently Supported Swap Pairs: {br}Bitcoin ⇋ Ethereum {br}Bitcoin ⇋ ERC20 Tokens {br}Swap Support for other pairs are coming soon. {br}{br}Zero platform fees, No third-parties, No proxy-tokens and No token wrappings involved. Please save your private keys at somewhere safe as once lost, your funds will be lost forever.",
     "files": [
       "shared/pages/OldWallet/Wallet.js"
     ]
   },
   {
     "id": "PartialClosure562",
-    "message": "Swap.Online is the decentralized in-browser hot wallet based on the Atomic Swaps technology. {br}As in our wallet all blockchains interact decentralized and no-third-party way, we offer our users to exchange Bitcoin, Ethereum, USD Tether, BCH and EOS for free in a couple of seconds. {br}{br}At the time, Swap.Online charges no commision for the order making and taking. {br}The exchange of crypto and tokens on Swap.Online is conducted in truly decentralized manner as we use the Atomic Swaps technology of peer-to-peer cross-chain interaction. {br}{br}Swap.Online uses IPFS-network for all the operational processes which results in no need for centralized server. {br}The interface of exchange seems to look like that of crypto broker, not of ordinary DEX or CEX. In a couple of clicks, the user can place and take the offer, customizing the price of sent token. {br}{br}Also, the user can exchange the given percentage of his or her amount of tokens available (e.g. ½, ¼ etc.). {br}{br}One more advantage of the Swap.Online exchange service is the usage of one key for the full range of ERC-20 tokens. {br}By the way, if case you’re not interested in exchange of some tokens, you can hide it from the list. {br}Thus, use Swap.Online as your basic exchange for every crypto you’re holding!"
+    "message": "Exchange your Bitcoins into Ethereum or ERC20 Tokens and vice versa with 0 platform fees and no third-parties involved. You only pay Miners Fees (transaction fees). {br}{br}Atomicswapwallet.io uses IPFS-network for all operational processes, allowing you to anonymously and securely exchange coins and tokens with other users. {br}{br} Currently Supported Swap Pairs: {br}Bitcoin ⇋ Ethereum {br}Bitcoin ⇋ ERC20 Tokens {br}Swaps for other coin pairs are coming soon."
   },
   {
     "id": "RowWallet276",
@@ -3779,11 +3810,18 @@
   },
   {
     "id": "deposit213",
-    "message": "and 0.002 ETH на gas fee"
+    "message": " and 0.002 ETH gas fee "
   },
   {
     "id": "deposit165",
     "message": "To continue the swap copy this address and top it up with {missingBalance}",
+    "files": [
+      "shared/pages/Swap/DepositWindow/DepositWindow.js"
+    ]
+  },
+  {
+    "id": "deposit297",
+    "message": "view in explorer",
     "files": [
       "shared/pages/Swap/DepositWindow/DepositWindow.js"
     ]
@@ -4011,7 +4049,7 @@
   },
   {
     "id": "BtcToEthToken102",
-    "message": "Withdrawing {name} from a contract"
+    "message": "Swapping"
   },
   {
     "id": "BtcToEthToken111",
@@ -4019,7 +4057,7 @@
   },
   {
     "id": "BtcToEthToken123",
-    "message": "Finished!",
+    "message": "The swap is finish!!",
     "files": [
       "shared/pages/Swap/SwapList/steps/FourthStep.js"
     ]
@@ -4038,15 +4076,11 @@
   },
   {
     "id": "BtcToEthToken58",
-    "message": "Bitcoin deposition"
-  },
-  {
-    "id": "BtcToEthToken67",
-    "message": "Bitcoin deposition"
+    "message": "Depositing Bitcoin to a smart contract"
   },
   {
     "id": "BtcToEthToken80",
-    "message": "{name} deposition"
+    "message": "Depositing {name} to a smart contract"
   },
   {
     "id": "BtcToEthToken89",
@@ -4136,7 +4170,7 @@
   },
   {
     "id": "ethToBtcText32",
-    "message": "Creating Ethereum Contract.{br}It can take a few minutes",
+    "message": "Creating Ethereum Contract.{br}It can take a few minutes. (It may require 1 confirmation from bitcoin network)",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthToBtc.js"
     ]
@@ -4150,21 +4184,21 @@
   },
   {
     "id": "ethToBtcText40",
-    "message": "The funds from ETH contract was successfully transferred to BTC owner.\n BTC owner left a secret key. Requesting withdrawal from BTC script.",
+    "message": "ETH was successfully transferred. Withdrawing BTC.",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthToBtc.js"
     ]
   },
   {
     "id": "ethToBtcText44",
-    "message": "Thank you for using Swap.Online",
+    "message": "Thank you for using AtomicSwapWallet.io",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthToBtc.js"
     ]
   },
   {
     "id": "ethToBtcText48",
-    "message": "Thank you for using Swap.Online!",
+    "message": "Thank you for using AtomicSwapWallet.io!",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthToBtc.js"
     ]
@@ -4175,7 +4209,7 @@
   },
   {
     "id": "WalletPromoText",
-    "message": "🎁 🎁 🎁 Thank you for using Swap.Online!\n                Tell us about your experience with our service\n                and we will gift you $10 in BTC 🎁 🎁 🎁"
+    "message": "🎁 🎁 🎁 Thank you for using AtomicSwapWallet.io!\n                Tell us about your experience & grab a chance to win some ETH! 🎁 🎁 🎁"
   },
   {
     "id": "orders224",
@@ -4225,7 +4259,7 @@
   },
   {
     "id": "BitcoinBuyText41",
-    "message": "{buyCurrency} contract created and charged. Requesting withdrawal from {buyCurrency} Contract. It usually takes less than 10 mins",
+    "message": "{buyCurrency}  contract was created and charged. Withdrawing {buyCurrency}.",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/BtcToEthTokens.js"
     ]
@@ -4239,14 +4273,14 @@
   },
   {
     "id": "BitcoinBuyText49",
-    "message": "Thank you for using Swap.Online",
+    "message": "Thank you for using AtomicSwapWallet.io",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/BtcToEthTokens.js"
     ]
   },
   {
     "id": "BitcoinBuyText53",
-    "message": "Thank you for using Swap.Online!",
+    "message": "Thank you for using AtomicSwapWallet.io!",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/BtcToEthTokens.js"
     ]
@@ -4281,7 +4315,7 @@
   },
   {
     "id": "EthTokensToBtc32",
-    "message": "Creating Ethereum Contract. {br} It can take a few minutes",
+    "message": "Creating Ethereum Contract. {br} It can take a few minutes (It may require 1 confirmation from bitcoin network)",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthTokensToBtc.js"
     ]
@@ -4295,21 +4329,21 @@
   },
   {
     "id": "EthTokensToBtc40",
-    "message": "The funds from ETH contract was successfully transferred to BTC owner. BTC owner left a secret key. Requesting withdrawal from BTC script.",
+    "message": "ETH was successfully transferred. Withdrawing BTC.",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthTokensToBtc.js"
     ]
   },
   {
     "id": "EthTokensToBtc44",
-    "message": "Thank you for using Swap.Online",
+    "message": "Thank you for using AtomicSwapWallet.io",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthTokensToBtc.js"
     ]
   },
   {
     "id": "EthTokensToBtc48",
-    "message": "Thank you for using Swap.Online!",
+    "message": "Thank you for using AtomicSwapWallet.io!",
     "files": [
       "shared/pages/Swap/SwapProgress/SwapProgressText/EthTokensToBtc.js"
     ]
@@ -4389,7 +4423,7 @@
   },
   {
     "id": "CurrencyWalletTitle",
-    "message": "Swap.Online - {fullName} ({currency}) Web Wallet with Atomic Swap.",
+    "message": "AtomicSwapWallet.io - {fullName} ({currency}) Web Wallet Featuring Atomic Swaps.",
     "files": [
       "shared/pages/CurrencyWallet/CurrencyWallet.js"
     ]
@@ -4465,7 +4499,7 @@
   },
   {
     "id": "BtcToEthToken25",
-    "message": "Depositing Bitcoin {fromWhom} to the smart contract"
+    "message": "Depositing Bitcoin {fromWhom} to the contract"
   },
   {
     "id": "FourthStep28",
@@ -4477,15 +4511,15 @@
   },
   {
     "id": "ThirdStep25",
-    "message": "{name} is depositing {fromWhom} to the contract"
+    "message": "Depositing {name} {fromWhom} to the contract"
   },
   {
     "id": "ThirdStep30",
-    "message": "from you"
+    "message": "from seller"
   },
   {
     "id": "ThirdStep31",
-    "message": "from seller"
+    "message": "from you"
   },
   {
     "id": "BtcToEthToken24",
@@ -4686,6 +4720,10 @@
     ]
   },
   {
+    "id": "FeeControler34",
+    "message": "Not enough ETH on your balance for miner fee.{br}Deposit 0.002 ETH to your account  {br}"
+  },
+  {
     "id": "swapjs290",
     "message": "Cancel swap"
   },
@@ -4694,25 +4732,6 @@
     "message": "Data processed, try to reload the page",
     "files": [
       "shared/components/modals/IncompletedSwaps/IncompletedSwaps.js"
-    ]
-  },
-  {
-    "id": "Continue",
-    "message": "Continue",
-    "files": [
-      "shared/pages/Swap/BtcToLtc.js",
-      "shared/pages/Swap/LtcToBtc.js"
-    ]
-  },
-  {
-    "id": "FeeControler34",
-    "message": "Not enough ETH on your balance for miner fee.{br}Deposit 0.002 ETH to your account  {br} {address}"
-  },
-  {
-    "id": "Sign",
-    "message": "Sign",
-    "files": [
-      "shared/pages/Swap/LtcToBtc.js"
     ]
   },
   {
@@ -4740,33 +4759,22 @@
     ]
   },
   {
-    "id": "deposit297",
-    "message": "view in explorer",
-    "files": [
-      "shared/pages/Swap/DepositWindow/DepositWindow.js"
-    ]
-  },
-  {
     "id": "Select28",
     "message": "ALL"
   },
   {
     "id": "tourPartial103",
-    "message": "Here you can see the searching status of the offers for exchange matching your request. While loading you will see the \"Search for orders\" field. The exchange rate will be shown when the matching order is found.",
+    "message": "In this place you can see the status of the search for exchange offers,  during loading there will be an inscription “Search for orders” at this place, when the order is found in this place, the exchange rate will be written",
     "files": [
       "shared/components/Header/TourPartial/TourPartial.js"
     ]
   },
   {
     "id": "tourPartial107",
-    "message": "With this switch, you can choose to receive funds on your swap.online or external wallet",
+    "message": "With this switch, you can choose to receive funds directly on your AtomicSwapWallet.io or to your external wallet",
     "files": [
       "shared/components/Header/TourPartial/TourPartial.js"
     ]
-  },
-  {
-    "id": "tourPartial111",
-    "message": "This amount is the amount available for sale from your internal wallet swap.online, minus the miners' fee. By selling this amount, you can not worry about additional payments."
   },
   {
     "id": "tourPartial116",
@@ -5086,7 +5094,7 @@
   },
   {
     "id": "IEO_title_1",
-    "message": "We are planning IEO, you can get bonuses by following these steps:",
+    "message": "We are planning IEO, you can get bonuses by following these steps::",
     "files": [
       "shared/pages/IEO/IEO.js"
     ]
@@ -5331,8 +5339,15 @@
     ]
   },
   {
+    "id": "PreventMultiTabsSwitchApp",
+    "message": "Закрыть другие вкладки и продолжить тут",
+    "files": [
+      "shared/components/PreventMultiTabs/PreventMultiTabs.js"
+    ]
+  },
+  {
     "id": "createWalletHeader1",
-    "message": "Создайте кошелек  в три простых шага?",
+    "message": "Создание кошелька",
     "files": [
       "shared/pages/CreateWallet/CreateWallet.js"
     ]
@@ -5367,7 +5382,32 @@
   },
   {
     "id": "createWalletSubHeader2",
-    "message": "Выберите уровень защиты вашего кошелька",
+    "message": "Выберите уровень защиты вашего кошелька"
+  },
+  {
+    "id": "createWalletActivated",
+    "message": "Activated!",
+    "files": [
+      "shared/pages/CreateWallet/Steps/SecondStep.js"
+    ]
+  },
+  {
+    "id": "createWalletButton3",
+    "message": "Create Wallet",
+    "files": [
+      "shared/pages/CreateWallet/Steps/SecondStep.js"
+    ]
+  },
+  {
+    "id": "createWalletSoon",
+    "message": "Soon!",
+    "files": [
+      "shared/pages/CreateWallet/Steps/SecondStep.js"
+    ]
+  },
+  {
+    "id": "createWalletCapture1",
+    "message": "На выбор Bitcoin, Ethereum, USDT, EUROS, Swap или все сразу",
     "files": [
       "shared/pages/CreateWallet/Steps/texts.js"
     ]
@@ -5394,6 +5434,27 @@
     ]
   },
   {
+    "id": "createWalletCapture2",
+    "message": "Без защиты, sms, google auth, мультисиг",
+    "files": [
+      "shared/pages/CreateWallet/Steps/texts.js"
+    ]
+  },
+  {
+    "id": "createWalletSubHeader1",
+    "message": "Укажите валюту кошелька",
+    "files": [
+      "shared/pages/CreateWallet/Steps/texts.js"
+    ]
+  },
+  {
+    "id": "createWalletSubHeader2",
+    "message": "Выберите уровень защиты вашего кошелька",
+    "files": [
+      "shared/pages/CreateWallet/Steps/texts.js"
+    ]
+  },
+  {
     "id": "history107",
     "message": "Loading",
     "files": [
@@ -5405,13 +5466,6 @@
     "message": "You can change SWAP to BTC here",
     "files": [
       "shared/pages/IEO/IEO.js"
-    ]
-  },
-  {
-    "id": "HowItWorks10",
-    "message": "How it works",
-    "files": [
-      "shared/pages/PartialClosure/HowItWorks/HowItWorks.js"
     ]
   },
   {
@@ -5780,7 +5834,7 @@
   },
   {
     "id": "BtcToEth315",
-    "message": "Thank you for using Swap.Online!",
+    "message": "Thank you for using AtomicSwapWallet.io!",
     "files": [
       "shared/pages/Swap/BchToEth.js"
     ]
@@ -6060,7 +6114,7 @@
   },
   {
     "id": "EthToBtc390",
-    "message": "Thank you for using Swap.Online!",
+    "message": "Thank you for using AtomicSwapWallet.io!",
     "files": [
       "shared/pages/Swap/EthToBch.js"
     ]
