@@ -67,8 +67,9 @@ a:hover {
 
 /* Sections */
 .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 20px 0;
+    height: 70px;
+    text-align: center;
 }
 
 .section-title {
@@ -127,7 +128,8 @@ a:hover {
 }
 
 .bg-light-blue {
-    background-color: #F3F3FF;
+    background-color: black;
+    color: white;
 }
 
 .swap-list {
@@ -850,7 +852,7 @@ a:hover {
     font-weight: bold;
     font-size: 32px;
     line-height: 1;
-    color: #151B57;
+    color: white;
     max-width: 740px;
     margin: 0 auto 65px;
 }
@@ -1122,7 +1124,7 @@ a:hover {
 }
 
 .section-inverse .why-subtitle {
-    color: #000;
+    color:white;
 }
 
 .partner-item {

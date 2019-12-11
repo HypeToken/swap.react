@@ -345,40 +345,6 @@ export default class Wallet extends Component {
       <artical>
         <section styleName="wallet">
           {!editTitle ? <h3 styleName="walletHeading" onDoubleClick={this.handleEditTitle}>{walletTitle}</h3> : <input styleName="inputTitle" onChange={(e) => this.handleChangeTitle(e)} value={walletTitle} />}
-          <Slider {...settings}>
-            {
-              !isPrivateKeysSaved && <NotifyBlock
-                className="notifyBlockSaveKeys"
-                descr="Before you continue be sure to save your private keys!"
-                tooltip="We do not store your private keys and will not be able to restore them"
-                icon={security}
-                firstBtn="Show my keys"
-                firstFunc={this.handleShowKeys}
-                secondBtn="I saved my keys"
-                secondFunc={this.handleSaveKeys}
-              />
-            }
-            {
-              !isSigned && !isClosedNotifyBlockSignUp && <NotifyBlock
-                  className="notifyBlockSignUp"
-                  descr="Sign up and get your free cryptocurrency for test!"
-                  tooltip="You will also be able to receive notifications regarding updates with your account"
-                  icon={mail}
-                  firstBtn="Sign Up"
-                  firstFunc={this.handleSignUp}
-                  secondBtn="I’ll do this later"
-                  secondFunc={() => this.handleNotifyBlockClose('isClosedNotifyBlockSignUp')} />
-            }
-            {
-              !isClosedNotifyBlockBanner && <NotifyBlock
-                className="notifyBlockBanner"
-                descr="Updates"
-                tooltip="Let us notify you that the main domain name for  AtomicSwapWallet.io exchange service will be changed from  AtomicSwapWallet.io to swaponline.io."
-                icon={info}
-                secondBtn="Close"
-                secondFunc={() => this.handleNotifyBlockClose('isClosedNotifyBlockBanner')} />
-            }
-        </Slider>
           <ul styleName="walletNav">
             {walletNav.map((item, index) => <li key={index} styleName={`walletNavItem ${activeView === index ? 'active' : ''}`} onClick={() => this.handleNavItemClick(index)}><a href styleName="walletNavItemLink">{item}</a></li>)}
           </ul>

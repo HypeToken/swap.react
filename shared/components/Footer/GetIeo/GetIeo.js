@@ -32,7 +32,7 @@ const GetIeo = () => (
           <FormattedMessage id="getIeo22" defaultMessage="Get Started" />
         </button>
         <button styleName="button light">
-          <a href="https://wiki.swap.online/en.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="https://atomicswapwallet.io/technical-documentation" target="_blank" rel="noopener noreferrer">
             <FormattedMessage id="getIeo25" defaultMessage="Read WhitePaper" />
           </a>
         </button>
